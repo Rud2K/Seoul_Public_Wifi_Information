@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* 공통 테이블 */
+.wifi-list,
+.wifi-detail,
+.wifi-history,
+.bookmark-list,
+.bookmark-group,
+.bookmark-list-delete {
+	width: 100%;
+	padding: 15px 1px;
+	border: 1px solid #dadad8;
+	border-collapse: collapse;
+	border-spacing: 0 1rem;
+	font-weight: bold;
+	table-layout: fixed;
+}
+
+.wifi-list th,
+.wifi-detail th,
+.wifi-history th,
+.bookmark-list th,
+.bookmark-group th,
+.bookmark-list-delete th {
+	padding: 15px 1px;
+	border: 1px solid #dadad8;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-overflow: ellipsis;
+	background-color: #029d5f;
+	word-wrap: break-word;
+}
+
+.wifi-list td,
+.wifi-detail td,
+.wifi-history td,
+.bookmark-list td,
+.bookmark-group td,
+.bookmark-list-delete td {
+	padding: 8px 7px;
+	border: 1px solid #dadad8;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+
+/* wifi-list */
+.wifi-list tr:hover {
+	background-color: #ededed;
+}
+
+/* wifi-detail */
+.wifi-detail {
+	width: 50%;
+}
+
+.wifi-detail th {
+	width: 25%;
+	padding: 10px 1px;
+}
+
+.wifi-detail td {
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+/* Naver Map */
+.content-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.map {
+	width: 50%;
+	height: 660px;
+	margin-left: 10px;
+	border: 2px solid #029d5f;
+	border-radius: 5px;
+}
+
+/* bookmark-group */
+.bookmark-list-container {
+	margin-bottom: 10px;
+}
+
+.bookmark-group td {
+	font-size: 14px;
+}
+
+.bookmark-group-add,
+.bookmark-list-delete {
+	width: 50%;
+	padding: 15px 1px;
+	border: 1px solid #dadad8;
+	border-collapse: collapse;
+	border-spacing: 0 1rem;
+	font-weight: bold;
+	table-layout: fixed;
+}
+
+.bookmark-group-add th,
+.bookmark-list-delete th {
+	padding: 15px 1px;
+	border: 1px solid #dadad8;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-overflow: ellipsis;
+	background-color: #029d5f;
+	word-wrap: break-word;
+}
+
+.bookmark-group-add td,
+.bookmark-list-delete td {
+	padding: 8px 7px;
+	border: 1px solid #dadad8;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+
+.bookmark-group-add input {
+	width: 30%;
+	height: 30%;
+	border: 2px solid #dadad8;
+	border-radius: 5px;
+	color: black;
+}
+
+.bookmark-group-add-buttons,
+.bookmark-list-delete-buttons {
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* home-link */
+.home-link {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
